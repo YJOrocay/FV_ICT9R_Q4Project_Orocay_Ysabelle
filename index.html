@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q4Quiz1</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"> 
+
+<style>
+	body {	
+    background-image:url('https://i.pinimg.com/originals/86/80/5a/86805ab550586369a6d2e9c6a8823c97.gif');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+	}
+
+	#add {
+		font-family: MINIMALIST;
+		font-size:40px;
+	}
+
+	#pass {
+		font-family: Cute Dino;
+	}
+
+	#box{
+        background-color: pink;
+        border: 2px magenta;
+    }
+
+    #pic {
+    	height:220px;
+    	width:285px;
+    }
+
+    #reset {
+    	font-family:MINIMALIST;
+    	font-size:20px;
+    }
+
+</style>
+
+</head>
+<body>
+
+<br><br><br>
+<center>
+		<img id="pic" class="rounded-circle" src="https://i.pinimg.com/originals/26/b5/51/26b55190267bb7c7a6b27c3fd20b687b.jpg">
+</center>
+
+<br><br><br>
+<center>
+<div class="col-md-6" id="box">
+				<form class="form-group">
+					<label id="add">Enter email address:</label>
+						<input type="email" class="form-control">
+					<label id="add">Enter password:</label>
+						<input type="password" class="form-control">
+
+					<p id="sample"></p>
+					<a href="mainpage.html" class="btn btn-success" id="reset">Enter</a>
+					<button type="reset" id="reset" class="btn btn-danger">Cancel</button>
+				</form>
+</div>
+</center>
+</body>
+</html>
